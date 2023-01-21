@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@types": "./types/mod.ts",
+
+    "@lib": "./lib/mod.ts" 
+  }
+}
