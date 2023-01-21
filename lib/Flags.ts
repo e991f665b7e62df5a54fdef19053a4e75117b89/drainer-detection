@@ -3,7 +3,7 @@
  */
 
 // Constants
-const HTTRACK_HEADERS: string[] = [ ];
+const HTTRACK_HEADERS: string[] = [ "Mirrored from", "HTTrack Website Copier" ];
 const META_REGEX = /<meta.*(http[s]?:\/\/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+).*>/g;
 const FAKE_MINT_STRINGS = [ "ʏᴏᴜ'ᴠᴇ ʙᴇᴇɴ ᴡʜɪᴛᴇʟɪꜱᴛᴇᴅ ᴛᴏ ʟɪᴍɪᴛᴇᴅ ꜰʀᴇᴇ ᴍɪɴᴛ", "𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐌𝐈𝐍𝐓!",  "𝐏𝐫𝐢𝐜𝐞: 𝐅𝐑𝐄𝐄" ];
 
