@@ -22,10 +22,7 @@ class Flags {
     ((html.match(META_REGEX) || [ ]).map((item: string) => {
       const url = new URL(item.split("content=\"")[1].split("\"")[0]);
 
-      if(url.host === host)
-        return false;
-
-      return true;
+      return url.host === host;
     }).filter((item: boolean) => !!item)).length > 0;
 
   public static isFakeMint = (html: string): boolean => 
